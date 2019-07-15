@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+
+    tools:context="com.example.android.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" SOFTWARE TESTING"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEBSITE FOR TEST"
+        android:textColor="#ff87ff09"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:textAlignment="center"
+        android:src="@drawable/softwaretest"
+         />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ENTER YOUR NAME"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textAlignment="center"
+        android:textColor="#0078d7"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Browser"
+        android:id="@+id/button"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start browsing with launch action"
+        android:id="@+id/button2"
+        android:textAlignment="center"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exceptional condition"
+        android:id="@+id/button3"
+        android:textAlignment="center"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START PHONE CALL"
+        android:id="@+id/button4"
+        />
+
+</LinearLayout>
